@@ -32,6 +32,7 @@ public class Rectangle {
 			this.height = height;
 		}
 		
+		//메소드 일반
 		public boolean equals(Object obj) {
 			int thisArea = this.width * this.height;
 			int objArea = ((Rectangle)obj).width * ((Rectangle)obj).height;

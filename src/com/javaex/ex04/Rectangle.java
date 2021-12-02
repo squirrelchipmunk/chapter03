@@ -31,6 +31,8 @@ public class Rectangle {
 		this.height = height;
 	}
 	
+	
+	//메소드 일반
 	public boolean equals(Object obj) {
 		if(this.width == ((Rectangle)obj).width  && this.height == ((Rectangle)obj).height )
 			return true;
